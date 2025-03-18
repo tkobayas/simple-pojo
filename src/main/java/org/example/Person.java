@@ -1,10 +1,20 @@
-package com.sample;
+package org.example;
 
 public class Person {
 
     private String name;
 
     private int age;
+
+    private Boolean adult;
+
+    public Boolean isAdult() {
+        return adult;
+    }
+
+    public void setAdult(Boolean adult) {
+        this.adult = adult;
+    }
 
     public Person() {
     }
