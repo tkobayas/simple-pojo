@@ -2,9 +2,17 @@ target/
 .settings/
 .classpath
 .project
-build/classes/
 *~
-temp/
-transaction.log
+*.tlog
+tmp.log
 .tern-project
+.metadata
+.recommenders/
+bin/
+Drools70Ex000_sandbox/
+build.metadata
+ksession.out
+.idea/
+deptree.txt
+*.iml
 
